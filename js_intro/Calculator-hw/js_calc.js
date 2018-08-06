@@ -1,8 +1,9 @@
 function myFunction() {
   var x,y,z,oper;
   x=prompt("Type a number");
-  y=prompt("Type a number");
   oper=prompt("Type an operator");
+  y=prompt("Type a number");
+
 
   if(oper=="+"){
     z=Number(x)+Number(y);

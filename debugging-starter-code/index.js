@@ -1,9 +1,9 @@
 console.log('start finding errors');
-consoole.log('Error1 Fixed');
-aleert('Make some noise!!!!');
+console.log('Error1 Fixed');
+alert('Make some noise!!!!');
 var someVariable = 1;
 someVariable++;
-
+debugger;
 someVariable++;
 someVariable++;
 

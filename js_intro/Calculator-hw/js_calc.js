@@ -1,10 +1,11 @@
-function myFunction() {
+//Declaring variables
+  function myFunction() {
   var x,y,z,oper;
   x=prompt("Type a number");
   oper=prompt("Type an operator");
   y=prompt("Type a number");
 
-
+//Conditions
   if(oper=="+"){
     z=Number(x)+Number(y);
   }
@@ -26,6 +27,6 @@ function myFunction() {
   else if(oper=="-"){
     z=Number(x)-Number(y);
   }
-
+//Popup return value
   alert(z);
   }

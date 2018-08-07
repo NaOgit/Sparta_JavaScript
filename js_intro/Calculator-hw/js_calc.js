@@ -11,6 +11,7 @@ function myCalculator(){
       //Declared Basic calculator function
       function myBasicCalculator(number1, number2, operator)
       {
+        //User input parameters
         number1 = parseFloat(prompt("Enter a number"));
         operator = prompt("Enter an operator");
         number2 = parseFloat(prompt("Enter a number"));
@@ -96,6 +97,7 @@ function myCalculator(){
     case "t":
       //Declared Trip calculator function
       function myTripCalculator(distance, fuelEff, costPerGal, speed, time, costOfJourn){
+        //User input parameters
         distance = parseFloat(prompt("Enter distance in miles"));
         speed = parseFloat(prompt("Enter average speed"));
         fuelEff = parseFloat(prompt("Enter fuel efficiency in MPG"));
@@ -119,41 +121,3 @@ function myCalculator(){
         alert("Please enter relevant values.")
     }
 }
-//input: distance, fuel efficiency, cost per gallon, speed --> resulttime and cost of your journey
-
-
-
-
-
-
-// function myFunction(x, y, z, oper) {
-
-//   x=prompt("Enter a number");
-//   oper=prompt("Enter an operator");
-//   y=prompt("Enter a number");
-//
-// //Conditions
-//   if(oper=="+"){
-//     z=Number(x)+Number(y);
-//   }
-//   else if(oper=="/"){
-//     z=Number(x)/Number(y);
-//   }
-//   else if(oper=="*"){
-//     z=Number(x)*Number(y);
-//   }
-//   else if(oper=="-"){
-//     z=Number(x)-Number(y);
-//   }
-//   else if(oper=!null){
-//     z="Error"
-//   }
-//   else if(x=!null){
-//     z="Error"
-//   }
-//   else if(y=!null){
-//     z="Error"
-//   }
-// //Popup return value
-//   alert(z);
-//   }

@@ -78,22 +78,15 @@ switch (calculatorOption) {
       fuelEff = parseFloat(prompt("Enter fuel efficiency in MPG"));
       costPerGal = parseFloat(prompt("Enter cost per gallon"));
 
-
       time = distance / speed;
       costOfJourn = (distance/fuelEff) * costPerGal;
 
+      if (costOfJourn < 0) {
+        alert("Please re-evaluate your values.")
+      }
+      else{
       alert(("Your journey will take ") + (time.toPrecision(3)) + (" hours")+ (" and it will cost £") + (costOfJourn.toPrecision(5)) + ("."));
-
-      // switch (costOfJourn) {
-      //   case costOfJourn<0:
-      //     alert(("Your journey wil take ") + (time) + (" and it will cost") + (costOfJourn*(-1)));
-      //     break;
-      //   case costOfJourn>0:
-      //     alert(("Your journey wil take ") + (time) + (" and it will cost") + (costOfJourn));
-      //     break;
-      //   default:
-      //     alert("Please enter relevant values.")
-      // }
+      }
       }
       myTripCalculator();
     break;

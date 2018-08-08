@@ -1,8 +1,9 @@
+//Declared greeting prompt
+var name = prompt("Please tell me your name!");
+alert(("Hello, ") + (name) + ("! Welcome to myCalculator!"));
+
 //Declared main calculator body function
 function myCalculator(){
-  //Declared greeting prompt
-  var name = prompt("Please tell me your name!");
-  alert(("Hello, ") + (name) + ("! Welcome to myCalculator!"));
   //Declared prompt for user to pick a calculator
   var calculatorOption = prompt("Which calculator will you be using today, (b)asic, (a)dvanced, (i)BMI, or (t)rip?");
   //Switch calculators

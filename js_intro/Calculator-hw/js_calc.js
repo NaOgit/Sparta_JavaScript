@@ -10,8 +10,7 @@ function myCalculator(){
   switch (calculatorOption) {
     case "b":
       //Declared Basic calculator function
-      function myBasicCalculator(number1, number2, operator)
-      {
+      function myBasicCalculator(number1, number2, operator) {
         //User input parameters
         number1 = parseFloat(prompt("Enter a number"));
         operator = prompt("Enter an operator");
@@ -112,7 +111,7 @@ function myCalculator(){
         }
         //Otherwise
         else{
-        alert(("Your journey will take ") + (time.toPrecision(3)) + (" hours")+ (" and it will cost £") + (costOfJourn.toPrecision(5)) + ("."));
+          alert(("Your journey will take ") + (time.toPrecision(3)) + (" hours")+ (" and it will cost £") + (costOfJourn.toPrecision(5)) + ("."));
         }
       }
         //Called function

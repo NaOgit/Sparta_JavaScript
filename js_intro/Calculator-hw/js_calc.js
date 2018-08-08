@@ -43,21 +43,21 @@ function myCalculator(){
     break;
     case "a":
       //Declared Advance calculator function
-      function myAdvancedCalculator(x, y){
+      function myAdvancedCalculator(number, power){
         //Declared option prompt for user input
         var advanceOption = prompt("Which function do you wish to perform, (1)Power, or (2)Square Root?")
         //Switch options
         switch (advanceOption) {
           case "1":
             //Return product of power
-            x = parseFloat(prompt("Enter your base"));
-            y = parseFloat(prompt("Enter your exponent"));
-            alert(("The answer is ") + (Math.pow(x,y)) + ("."));
+            number = parseFloat(prompt("Enter your base"));
+            power = parseFloat(prompt("Enter your exponent"));
+            alert(("The answer is ") + (Math.pow(number,power)) + ("."));
             break;
           case "2":
             //Return square-rooted value
-            x = parseFloat(prompt("Enter number you'd like to take a square root of"));
-            alert(("The answer is ") + (Math.sqrt(x)) + ("."));
+            number = parseFloat(prompt("Enter number you'd like to take a square root of"));
+            alert(("The answer is ") + (Math.sqrt(number)) + ("."));
             break;
           default:
             //If unexpected values are entered

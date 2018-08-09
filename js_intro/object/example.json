@@ -1,0 +1,11 @@
+var person = {
+  "name" : "Json",
+  "age" : "29",
+  "employed" : true,
+  "friends" : ["Bill", "Kim"],
+  "myObj" : {
+    "house" : true,
+    "phone" : true,
+    "car" : "Fiat",
+  }
+}
